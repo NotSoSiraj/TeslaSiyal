@@ -269,12 +269,6 @@
     justify-content: center;
 }
 
-.bottomMainTwo {
-       gap: 6px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
 .menuWrapper {
     width: 200px;
@@ -307,7 +301,7 @@
     justify-content: center;
 }
 .bottomMainTwo {
-    gap: 33px;
+    gap: 8px;
     width: 100%;
     align-items: center;
     display: flex;
