@@ -280,11 +280,11 @@
     width: 200px;
 }
 
-.Specs h2 {
+.Specs div h2 {
     
-    font-size: 22px;
+    font-size: 20px;
 }
-.Specs p {
+.Specs div p {
     font-size: 10px;
 }
 
