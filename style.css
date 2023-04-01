@@ -89,9 +89,10 @@
     text-align: center;
 }
    .topMain h1 {
-    font-size: 46px;
+    font-size: 36px;
+    font-weight: 500;
     margin: 0;
-   }
+}
 
    .topMain p {
     font-size: 17px;
@@ -269,7 +270,7 @@
 }
 
 .bottomMainTwo {
-    gap: 33px;
+       gap: 6px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -284,7 +285,7 @@
     font-size: 22px;
 }
 .Specs p {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .bottomMainTwo a {
@@ -316,6 +317,7 @@
     display: flex;
     gap: 20px;
     width: 100%;
+    flex-direction: column;
     justify-content: center;
 }
 
