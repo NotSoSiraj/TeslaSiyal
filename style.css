@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
+
+   }
+   .banner {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(238,238,238,0) 100%), url(assets/M3-Homepage-D.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+
+   #header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+   }
+
+   .leftWrapper svg {
+    width: 118px;
+    display: block;
+   }
+
+   .centerWrapper ul li {
+    list-style: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 7px 16px;
+    transition: 0.33s all ease-in-out;
+   }
+
+   .centerWrapper li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(20, 20, 20);
+   }
+
+   .centerWrapper ul li:hover {
+    list-style: none;
+    display: inline-block;
+    transition: 0.33s ease-in-out;
+    border-radius: 1px;
+    background-color:  #efeff079;
+    border-radius: 3px;
+    padding: 7px 16px;
+   }
+
+   .rightWrapper  li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 16px;
+   }
+
+   .rightWrapper  li:hover {
+    list-style: none;
+    display: inline-block;
+    transition: 0.33s ease-in-out;
+    border-radius: 1px;
+    background-color:  #efeff079;
+    border-radius: 3px;
+    padding: 7px 16px;
+   }
+
+   .rightWrapper li a {
+    text-decoration: none;
+    color: gray;
+   }
+
+   .rightWrapper li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(20, 20, 20);
+   }
+
+   #mainWrapper {
+    height: 71vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+   .topMain h1 {
+    font-size: 46px;
+    margin: 0;
+   }
+
+   .topMain p {
+    font-size: 17px;
+}
+
+.bottomMain {
+    display: flex;
+    gap: 20px;
+}
+   .bottomMain a {
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 11px 80px;
+   
+   }
+
+   .btnOne {
+    background-color: #3a3e42;
+    color: white;
+   }
+   .btnTwo {
+    background-color: #ebebea;
+    color: black;
+   }
+
+/*    Model S  */
+
+.bannerTwo {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(238,238,238,0) 100%), url(assets/ms-main-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bottomLinks {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menuWrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    background: white;
+    height: 100%;
+    transition: 0.33s all ease-in-out;
+    padding: 0px 19px;
+    width: 300px;
+}
+
+
+
+
+.menuWrapper li {
+    list-style: none;
+    font-size: 15px;
+    padding: 11px;
+    font-weight: 600;
+
+}
+
+.menuWrapper li a {
+    text-decoration: none;
+    color: black;
+}
+.Xbtn {
+    height: 51px;
+    display: flex;
+    padding: 0px 19px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Xbtn img {
+    width: 19px;
+}
+
+.Specs {
+    display: flex;
+    gap: 20px;
+}
+
+.Specs div {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.bottomMainTwo a {
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 11px 80px;
+   
+   }
+
+   #mainWrapperSecond {
+    height: 79vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+   }
+
+   .bottomMainTwo {
+    gap: 33px;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .Specs div h2,p {
+    margin: 0;
+    padding: 0;
+
+   }
+
+  /*  Model X */
+
+  .bannerThree {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(238,238,238,0) 100%), url(assets/MX-Hero-Desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+/* Solor Roof  */
+
+.bannerFour {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(238,238,238,0) 100%), url(assets/sr-storm-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ul {
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    #header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 20px;
+        height: 100px;
+    }
+    .centerWrapper {
+        display: none;
+    }
+
+    .rightWrapper {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomMainTwo {
+    gap: 33px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuWrapper {
+    width: 200px;
+}
+
+.Specs h2 {
+    
+    font-size: 22px;
+}
+.Specs p {
+    font-size: 12px;
+}
+
+.bottomMainTwo a {
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+    max-width: 283px;
+    height: 40px;
+    padding: 0px 0px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.Specs {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.bottomMainTwo {
+    gap: 33px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.bottomLinks {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.SpecWrapperFour{
+    display: none;
+}
+.dela {
+    display: none;
+}
+
+#mainWrapperSecond {
+    height: 79vh;
+    padding: 0px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.Specs div:last-child{
+    display: none;
+}
+}
