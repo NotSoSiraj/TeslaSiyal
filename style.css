@@ -253,12 +253,11 @@
 
 @media only screen and (max-width: 800px) {
     #header {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0 20px;
-        height: 100px;
-    }
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+}
     .centerWrapper {
         display: none;
     }
@@ -286,7 +285,7 @@
     width: 100%;
     display: flex;
     font-size: 15px;
-    max-width: 283px;
+    max-width: 400px;
     height: 40px;
     padding: 0px 0px;
     align-items: center;
@@ -297,6 +296,7 @@
 .Specs {
     width: 100%;
     display: flex;
+   max-width: 400px;
     gap: 5px;
     justify-content: center;
 }
